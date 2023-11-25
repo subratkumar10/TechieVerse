@@ -1,0 +1,4 @@
+{
+    "mongoURI":"mongodb+srv://subratkumar10:WsqVt3g86sFdmISo@merndev1.ij2if.mongodb.net/?retryWrites=true&w=majority",
+    "jwtSecret":"verySecretToken"
+}
