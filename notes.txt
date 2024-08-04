@@ -1,0 +1,15 @@
+npm run server (already configured in package.json)
+
+npx nodemon server (general)
+
+npm i express express-validator bcryptjs config gravatar jsonwebtoken mongoose request nodemon concurrently
+
+ npm i axios react-router-dom react-redux redux-thunk redux-devtools-extension moment react-moment
+
+
+
+
+
+
+
+

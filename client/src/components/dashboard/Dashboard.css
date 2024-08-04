@@ -1,0 +1,80 @@
+/* Dashboard.css */
+
+.dashboard-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.large {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.text-primary {
+    color: #3498db;
+}
+
+.lead {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+    color: #7f8c8d;
+}
+
+.btn-primary {
+    background-color: #3498db;
+    border-color: #3498db;
+    color: white;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #2980b9;
+    border-color: #2980b9;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-light {
+    background-color: #ecf0f1;
+    border-color: #ecf0f1;
+    color: #2c3e50;
+}
+
+.btn-light:hover {
+    background-color: #bdc3c7;
+    border-color: #bdc3c7;
+    color: #2c3e50;
+}
+
+.my-1 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.profile-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* This makes the image circular */
+    object-fit: cover; /* This ensures the image covers the container without stretching */
+    margin-right: 10px;
+  }
+  
+  .welcome-text {
+    font-size: 1.2em;
+    font-weight: bold;
+  }

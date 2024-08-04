@@ -7,7 +7,7 @@ const ProfileSchema=new mongoose.Schema({
     company:{
         type:String
     },
-    webiste:{
+    website:{
         type:String
     },
     location:{
@@ -92,7 +92,7 @@ const ProfileSchema=new mongoose.Schema({
         instagram:{
             type:String
         },
-        snapchat:{
+        youtube:{
             type:String
         },
         linkedin:{

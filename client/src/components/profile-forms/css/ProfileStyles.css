@@ -1,0 +1,104 @@
+/* EditProfileStyles.css */
+
+.form-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.form-group small {
+    color: #6c757d;
+    font-size: 0.875rem;
+}
+
+.my-1 {
+    margin: 20px 0;
+}
+
+.btn-light {
+    background-color: #f8f9fa;
+    color: #495057;
+    border: 1px solid #ced4da;
+}
+
+.btn-light:hover {
+    background-color: #e2e6ea;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.social-input {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.social-input i {
+    margin-right: 10px;
+    color: #007bff;
+}
+
+.social-input input {
+    flex: 1;
+}
+
+.optional-label {
+    color: #6c757d;
+    font-size: 0.875rem;
+}
+
+.link-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.link-buttons .btn {
+    flex: 1;
+    margin: 0 5px;
+}
+
+.link-buttons .btn:first-of-type {
+    margin-left: 0;
+}
+
+.link-buttons .btn:last-of-type {
+    margin-right: 0;
+}
