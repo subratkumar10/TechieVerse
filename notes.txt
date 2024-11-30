@@ -7,9 +7,25 @@ npm i express express-validator bcryptjs config gravatar jsonwebtoken mongoose r
  npm i axios react-router-dom react-redux redux-thunk redux-devtools-extension moment react-moment
 
 
+id: subrat1245@gmail.com
+pwd: subrat12345
 
 
 
 
+{
+    "company":"oracle",
+    "location":"Bangalore",
+    "status":"Developer",
+    "skills":"springboot,Node.js,React",  
+"bio":"I am a developer looking for sde profile",
+"facebook":"https://facebook.com/subratkumar",
+"instagram":"https://instagram.com/subratkumar",
+"snapchat":"https://snapchat.com/subratkumar",
+"linkedin":"https://linkedin.com/subratkumar",
+"twitter":"https://twitter.com/subratkumar"
+}
 
 
+subrat1245@gmail.com
+subrat12345

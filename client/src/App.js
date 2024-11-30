@@ -16,7 +16,8 @@ import PrivateRoute from './components/routing/PrivateRoute';
 import EditProfile from './components/profile-forms/EditProfile';
 import AddExperience from './components/profile-forms/AddExperience';
 import AddEducation from './components/profile-forms/AddEducation';
-
+import Profiles from './components/profiles/Profiles';
+import Profile from './components/profile/Profile';
 if(localStorage.token){
   setAuthToken(localStorage.token);
 }
@@ -40,6 +41,8 @@ useEffect(()=>{
         <Routes>
           <Route exact path="/register" element={<Register />} />
           <Route exact path="/login" element={<Login />} />
+          <Route path="/profiles" element={<Profiles />} />
+          <Route path="/profile/:id" element={<Profile />} />
           {/* <PrivateRoute exact path="/dashboard" element={<Dashboard />} /> */}
           {/* <Route element={<PrivateRoute />}></Route> */}
           <Route element={<PrivateRoute />}>
@@ -48,6 +51,7 @@ useEffect(()=>{
           <Route path="/edit-profile" element={<EditProfile />} />
           <Route path="/add-experience" element={<AddExperience />} />
           <Route path="/add-education" element={<AddEducation />} />
+        
           </Route>
 
         </Routes>
