@@ -1,0 +1,6 @@
+{
+    "mongoURI":"mongodb+srv://subratkumar10:WsqVt3g86sFdmISo@merndev1.ij2if.mongodb.net/?retryWrites=true&w=majority",
+    "jwtSecret":"verySecretToken",
+    "githubClientId":"Ov23liiBCBJ0YbHP108P",
+    "githubSecret":"bd2b0770a73078df944261fbcb6918c11ceb0906"
+}

@@ -6,6 +6,7 @@ import {getPostById} from '../../actions/post'
 import { Link, useParams} from 'react-router-dom';
 import PostItem from '../posts/PostItem'
 import CommentForm from './CommentForm'
+import CommentItem from './CommentItem'
 
 const Post = ({
     getPostById,
@@ -21,9 +22,14 @@ const Post = ({
     <Fragment>
         <Link to='/posts' className='btn'>Back To Posts</Link>
         {post === null || loading ? <Spinner/> : <Fragment>
-            console.log("post id is",{post._id}) ;
+           
             <PostItem post={post} showActions={false}/>
             <CommentForm postId={post._id}/>
+            <div className="comments">
+                {post.comments.map(comment =>(
+                    <CommentItem key={comment._id} comment={comment} postId={post._id}/>
+                ))}
+            </div>
         </Fragment>}
     </Fragment>
   )
