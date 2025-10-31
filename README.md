@@ -7,7 +7,7 @@ Built with the **MERN stack (MongoDB, Express.js, React.js,Redux.js, Node.js)**,
 - Signup and Login 
 - Developers can do CRUD operations for their experience, education, github and social media links in profile dashboard section.
 - A user can post their job update / create a technical blog and other users can comment on the post.
-- Each user can see list of all Developer's profile and visit their profiles directly
+- Each user can see list of all Developer's profile and visit their profiles directly and follow them.
 
 # TODO features
 - Each user can directly message people with end to end encryption.
